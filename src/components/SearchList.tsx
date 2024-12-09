@@ -1,7 +1,7 @@
 // @ts-nocheck
 
-import { SearchResultContext } from "@/context/searchResult.context"
-import useMultiSearch from "@/hooks/useMultiSearch"
+import { SearchResultContext } from "../context/searchResult.context"
+import useMultiSearch from "../hooks/useMultiSearch"
 import { useContext } from "react"
 import MovieCard from "./MovieCard"
 import TvShowCard from "./TvShowCard"

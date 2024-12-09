@@ -1,6 +1,6 @@
 // @ts-nocheck
 
-import useTrendingList from "@/hooks/useTrending"
+import useTrendingList from "../../hooks/useTrending"
 import { MdOutlineExpandMore } from "react-icons/md"
 import MovieCard from "../MovieCard"
 import { useState } from "react"

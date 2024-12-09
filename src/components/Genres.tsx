@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -8,8 +8,8 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { GenresContext } from "@/context/genres.context"
+} from "./ui/dropdown-menu"
+import { GenresContext } from "../context/genres.context"
 import { useContext, useState } from "react"
 import { useNavigate } from "react-router"
 

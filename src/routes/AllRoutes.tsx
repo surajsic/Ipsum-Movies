@@ -1,9 +1,9 @@
-import MovieList from "@/components/MovieList"
-import Player from "@/components/Player"
-import SearchList from "@/components/SearchList"
-import Trending from "@/components/Trending/TrendingList"
-import TvShowList from "@/components/TvShowList"
-import TvShowPlayer from "@/components/TvShowPlayer"
+import MovieList from "../components/MovieList"
+import Player from "../components/Player"
+import SearchList from "../components/SearchList"
+import Trending from "../components/Trending/TrendingList"
+import TvShowList from "../components/TvShowList"
+import TvShowPlayer from "../components/TvShowPlayer"
 import { Route, Routes } from "react-router"
 
 const AllRoutes = () => {

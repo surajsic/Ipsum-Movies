@@ -1,7 +1,7 @@
 // @ts-nocheck
 
-import { SearchResultContext } from "@/context/searchResult.context"
-import apiClient from "@/services/api-client"
+import { SearchResultContext } from "../context/searchResult.context"
+import apiClient from "../services/api-client"
 import { useContext, useEffect } from "react"
 
 const useMultiSearch = (input : String)=>{

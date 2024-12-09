@@ -1,4 +1,4 @@
-import { TvShowResult } from '@/hooks/useTvShow'
+import { TvShowResult } from '../hooks/useTvShow'
 import { Card, CardContent } from './ui/card'
 import { useNavigate } from 'react-router'
 

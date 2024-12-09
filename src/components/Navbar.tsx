@@ -5,7 +5,8 @@ import logo from '../assets/logo-nav.svg'
 import { Input } from './ui/input'
 import Genres from './Genres'
 import { useContext, useState } from 'react'
-import { SearchResultContext } from '@/context/searchResult.context'
+import { SearchResultContext } from '../context/searchResult.context'
+
 
 const Navbar = () => {
 

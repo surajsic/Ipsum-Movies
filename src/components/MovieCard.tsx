@@ -1,4 +1,4 @@
-import { MovieResult } from "@/hooks/useMovies"
+import { MovieResult } from "../hooks/useMovies"
 import { Card, CardContent } from "./ui/card"
 import { useNavigate } from "react-router"
 

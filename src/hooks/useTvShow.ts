@@ -1,4 +1,4 @@
-import apiClient from "@/services/api-client"
+import apiClient from "../services/api-client"
 import { useEffect, useState } from "react"
 
 export interface TvShowResult{

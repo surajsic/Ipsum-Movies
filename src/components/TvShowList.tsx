@@ -1,4 +1,4 @@
-import useTvShow from "@/hooks/useTvShow"
+import useTvShow from "../hooks/useTvShow"
 import TvShowCard from "./TvShowCard"
 
 const TvShowList = () => {

@@ -1,4 +1,4 @@
-import apiClient from "@/services/api-client"
+import apiClient from "../services/api-client"
 import { useEffect, useState } from "react"
 
 export interface MovieResult{
@@ -22,6 +22,7 @@ const useMovieList = (genres?: number | null )=>{
         const response = await apiClient.get('/discover/movie', {
             params: {
                 with_genres: genres,
+                
             },
         })
         setMovieList(response.data.results)
